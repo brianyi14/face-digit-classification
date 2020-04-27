@@ -1,0 +1,963 @@
+INFO:ipypublish:started ipypublish v0.10.10 at Mon Apr 27 02:08:00 2020
+INFO:ipypublish:logging to: C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code.nbpub.log
+INFO:ipypublish:running for ipynb(s) at: report_code.ipynb
+INFO:ipypublish:with conversion configuration: latex_ipypublish_main
+INFO:nbmerge:Reading notebook
+INFO:ipypublish:finding conversion configuration: latex_ipypublish_main
+INFO:ipypublish:loading conversion configuration
+INFO:ipypublish:creating exporter
+INFO:ipypublish:creating template and loading filters
+INFO:ipypublish:creating process configuration
+INFO:ipypublish:running nbconvert
+INFO:root:splitting outputs into separate cells
+INFO:resolve_links:resolving external file paths in ipub metadata to: report_code.ipynb
+INFO:captions:extracting caption cells
+INFO:write-text-file:writing stream to file: C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code.tex
+INFO:write-resource-files:writing files in resources[outputs] to: C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted
+INFO:copy-resource-paths:copying files in resources[external_file_paths] to: C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code_files
+INFO:pdf-export:running pdf conversion
+INFO:pdf-export:running: latexmk -xelatex -bibtex -pdf C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code.tex
+INFO:pdf-export:latexmk: Latexmk: This is Latexmk, John Collins, 26 Dec. 2019, version: 4.67.
+INFO:pdf-export:latexmk: Rule 'pdflatex': File changes, etc:
+INFO:pdf-export:latexmk: Changed files, or newly in use since previous run(s):
+INFO:pdf-export:latexmk: 'C:/Users/brian/OneDrive/Desktop/work/projects/face-digit-classification/converted/report_code.tex'
+INFO:pdf-export:latexmk: 'report_code.tex'
+INFO:pdf-export:latexmk: 'report_code_files/output_31_0.png'
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: Run number 1 of rule 'pdflatex'
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: Running 'pdflatex  -recorder  "C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code.tex"'
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: Latexmk: applying rule 'pdflatex'...
+INFO:pdf-export:latexmk: This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit)
+INFO:pdf-export:latexmk: entering extended mode
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: (C:/Users/brian/OneDrive/Desktop/work/projects/face-digit-classification/conver
+INFO:pdf-export:latexmk: ted/report_code.tex
+INFO:pdf-export:latexmk: LaTeX2e <2020-02-02> patch level 2
+INFO:pdf-export:latexmk: L3 programming layer <2020-02-14>
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrart
+INFO:pdf-export:latexmk: cl.cls"
+INFO:pdf-export:latexmk: Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkba
+INFO:pdf-export:latexmk: se.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+INFO:pdf-export:latexmk: e.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+INFO:pdf-export:latexmk: le.sty")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\tocbas
+INFO:pdf-export:latexmk: ic.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrsiz
+INFO:pdf-export:latexmk: e10pt.clo")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\typear
+INFO:pdf-export:latexmk: ea.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty")
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\mathpazo.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+INFO:pdf-export:latexmk: ics.cfg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+INFO:pdf-export:latexmk: x.def")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+INFO:pdf-export:latexmk: ty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjustbo
+INFO:pdf-export:latexmk: x.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
+INFO:pdf-export:latexmk: tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
+INFO:pdf-export:latexmk: .tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjcalc.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\trimclip
+INFO:pdf-export:latexmk: .sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectbox\collect
+INFO:pdf-export:latexmk: box.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\tc-pdfte
+INFO:pdf-export:latexmk: x.def"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpag
+INFO:pdf-export:latexmk: e.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwidth.
+INFO:pdf-export:latexmk: sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+INFO:pdf-export:latexmk: .cfg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"))
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: For additional information on amsmath, use the `?' option.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+INFO:pdf-export:latexmk: ")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+INFO:pdf-export:latexmk: ty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+INFO:pdf-export:latexmk: sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eurosym\eurosym.st
+INFO:pdf-export:latexmk: y") ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-global.def
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.def"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyvrb\fancyvrb.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grffile\grffile.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
+INFO:pdf-export:latexmk: mds.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
+INFO:pdf-export:latexmk: err.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
+INFO:pdf-export:latexmk: eys.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvd
+INFO:pdf-export:latexmk: efinekeys.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfesc
+INFO:pdf-export:latexmk: ape.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltx
+INFO:pdf-export:latexmk: macro.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
+INFO:pdf-export:latexmk: s.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+INFO:pdf-export:latexmk: f")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcalc.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmd
+INFO:pdf-export:latexmk: s.sty") ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigin
+INFO:pdf-export:latexmk: tcalc.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegsh
+INFO:pdf-export:latexmk: i.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+INFO:pdf-export:latexmk: ef"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryen
+INFO:pdf-export:latexmk: d.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rer
+INFO:pdf-export:latexmk: unfilecheck.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\un
+INFO:pdf-export:latexmk: iquecounter.sty")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.
+INFO:pdf-export:latexmk: sty") ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ulem\ulem.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translations\trans
+INFO:pdf-export:latexmk: lations.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+INFO:pdf-export:latexmk: sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+INFO:pdf-export:latexmk: e.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+INFO:pdf-export:latexmk: e-pdftex.def")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+INFO:pdf-export:latexmk: e.cfg"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placeins.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/todonotes\todonote
+INFO:pdf-export:latexmk: s.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+INFO:pdf-export:latexmk: tikz.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+INFO:pdf-export:latexmk: .sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+INFO:pdf-export:latexmk: cs.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: futil-common.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: futil-common-lists.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: futil-latex.def"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"))
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: frcs.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+INFO:pdf-export:latexmk: .tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+INFO:pdf-export:latexmk: core.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+INFO:pdf-export:latexmk: fsys.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsys.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: fkeys.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: fkeysfiltered.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgf.cfg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsys-pdftex.def"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsys-common-pdf.def")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsyssoftpath.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsysprotocol.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcore.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: .code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: calc.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: util.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: parser.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.basic.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.trigonometric.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.random.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.comparison.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.base.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.round.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.misc.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.integerarithmetics.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: float.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+INFO:pdf-export:latexmk: code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepoints.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepathconstruct.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepathusage.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorescopes.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoregraphicstate.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoretransformations.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorequick.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreobjects.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepathprocessing.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorearrows.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreshade.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreimage.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreexternal.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorelayers.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoretransparency.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepatterns.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorerdf.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+INFO:pdf-export:latexmk: oduleshapes.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+INFO:pdf-export:latexmk: oduleplot.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+INFO:pdf-export:latexmk: pgfcomp-version-0-65.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+INFO:pdf-export:latexmk: pgfcomp-version-1-18.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+INFO:pdf-export:latexmk: or.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+INFO:pdf-export:latexmk: eys.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: fkeys.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+INFO:pdf-export:latexmk: ty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: .code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: ffor.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: .code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz\tikz.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+INFO:pdf-export:latexmk: flibraryplothandlers.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+INFO:pdf-export:latexmk: odulematrix.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibrarytopaths.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibrarypositioning.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibraryshadows.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibraryfadings.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+INFO:pdf-export:latexmk: flibraryfadings.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chngcntr\chngcntr.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlay
+INFO:pdf-export:latexmk: er-scrpage.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlay
+INFO:pdf-export:latexmk: er.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/doi\doi.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newfloat\newfloat.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+INFO:pdf-export:latexmk: ty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+INFO:pdf-export:latexmk: cfg"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mdframed\mdframed.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
+INFO:pdf-export:latexmk: xparse.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
+INFO:pdf-export:latexmk: "
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+INFO:pdf-export:latexmk: d-pdfmode.def")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/zref\zref-abspage.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/zref\zref-base.sty
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/needspace\needspac
+INFO:pdf-export:latexmk: e.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mdframed\md-frame-
+INFO:pdf-export:latexmk: 1.mdf"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
+INFO:pdf-export:latexmk: ")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+INFO:pdf-export:latexmk: cfg"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.
+INFO:pdf-export:latexmk: sty") (report_code.aux
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ppl.fd"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+INFO:pdf-export:latexmk: df.mkii"
+INFO:pdf-export:latexmk: [Loading MPS to PDF converter (version 2006.09.02).]
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+INFO:pdf-export:latexmk: pdf-base.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.def")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+INFO:pdf-export:latexmk: ty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\g
+INFO:pdf-export:latexmk: ettitlestring.sty")) (report_code.out) (report_code.out)
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bookmark.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bkm-pdfte
+INFO:pdf-export:latexmk: x.def"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translations/dicts
+INFO:pdf-export:latexmk: \translations-basic-dictionary-english.trsl")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-ppl.c
+INFO:pdf-export:latexmk: fg") ABD: EveryShipout initializing macros
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Package scrlayer-scrpage Warning: Very small head height detected!
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                Using scrlayer-scrpage the head height
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                should be at least \baselineskip, which is
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                12.0pt currently.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                But head height is currently 0.0pt only.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                You may use
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                geometry option `head=12.0pt'
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                \relax to avoid this warning.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: *geometry* driver: auto-detecting
+INFO:pdf-export:latexmk: *geometry* detected driver: pdftex
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Overfull \hbox (64.83632pt too wide) in paragraph at lines 441--442
+INFO:pdf-export:latexmk: \T1/ppl/m/n/14.4 ma1700@scarletmail.rutgers.edu[][]
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ppl.fd")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlzplm.fd"
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omszplm.f
+INFO:pdf-export:latexmk: d")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxzplm.fd"
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1zplm.f
+INFO:pdf-export:latexmk: d")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msa.c
+INFO:pdf-export:latexmk: fg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb.c
+INFO:pdf-export:latexmk: fg") [1{C:/Users/brian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ppl.fd")
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Package scrlayer-scrpage Warning: \headheight to low.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                At least 12.0pt needed,
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                but only 0.0pt found.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                I'll enlarge \headheight, for further
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                processing, but you should do this yourself,
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                e.g., setting geometry's option
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                `head=12.0pt'.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
+INFO:pdf-export:latexmk: 22.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Overfull \vbox (12.0pt too high) has occurred while \output is active [2]
+INFO:pdf-export:latexmk: [3] [4 <./report_code_files/output_31_0.png>]pdfTeX warning (ext4): destination
+INFO:pdf-export:latexmk: with the same identifier (name{face-classification}) has been already used, du
+INFO:pdf-export:latexmk: plicate ignored
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.619 ...assification}\label{face-classification}}
+INFO:pdf-export:latexmk: [5] [6] [7] (report_code.aux
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: There were multiply-defined labels.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: (see the transcript file for additional information) <C:\Users\brian\AppData\Lo
+INFO:pdf-export:latexmk: cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk>{C:/Users/brian/A
+INFO:pdf-export:latexmk: ppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\brian\A
+INFO:pdf-export:latexmk: ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Use
+INFO:pdf-export:latexmk: rs\brian\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.p
+INFO:pdf-export:latexmk: k><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+INFO:pdf-export:latexmk: /cm/cmr10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+INFO:pdf-export:latexmk: lic/amsfonts/cm/cmsy10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fo
+INFO:pdf-export:latexmk: nts/type1/urw/palatino/uplb8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX
+INFO:pdf-export:latexmk: 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/brian/AppData/Local/Program
+INFO:pdf-export:latexmk: s/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/
+INFO:pdf-export:latexmk: Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData
+INFO:pdf-export:latexmk: /Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+INFO:pdf-export:latexmk: Output written on report_code.pdf (7 pages, 153671 bytes).
+INFO:pdf-export:latexmk: Transcript written on report_code.log.
+INFO:pdf-export:latexmk: Latexmk: Log file says output to 'report_code.pdf'
+INFO:pdf-export:latexmk: Latexmk: List of undefined refs and citations:
+INFO:pdf-export:latexmk: Label `face-classification' multiply defined
+INFO:pdf-export:latexmk: Label `face-classification@cref' multiply defined
+INFO:pdf-export:latexmk: Rule 'pdflatex': File changes, etc:
+INFO:pdf-export:latexmk: Changed files, or newly in use since previous run(s):
+INFO:pdf-export:latexmk: 'report_code.aux'
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: Run number 2 of rule 'pdflatex'
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: Running 'pdflatex  -recorder  "C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code.tex"'
+INFO:pdf-export:latexmk: ------------
+INFO:pdf-export:latexmk: === TeX engine is 'pdfTeX'
+INFO:pdf-export:latexmk: Latexmk: applying rule 'pdflatex'...
+INFO:pdf-export:latexmk: This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit)
+INFO:pdf-export:latexmk: entering extended mode
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: (C:/Users/brian/OneDrive/Desktop/work/projects/face-digit-classification/conver
+INFO:pdf-export:latexmk: ted/report_code.tex
+INFO:pdf-export:latexmk: LaTeX2e <2020-02-02> patch level 2
+INFO:pdf-export:latexmk: L3 programming layer <2020-02-14>
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrart
+INFO:pdf-export:latexmk: cl.cls"
+INFO:pdf-export:latexmk: Document Class: scrartcl 2020/01/24 v3.29 KOMA-Script document class (article)
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkba
+INFO:pdf-export:latexmk: se.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+INFO:pdf-export:latexmk: e.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+INFO:pdf-export:latexmk: le.sty")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\tocbas
+INFO:pdf-export:latexmk: ic.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrsiz
+INFO:pdf-export:latexmk: e10pt.clo")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\typear
+INFO:pdf-export:latexmk: ea.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty")
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\mathpazo.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+INFO:pdf-export:latexmk: ics.cfg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+INFO:pdf-export:latexmk: x.def")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+INFO:pdf-export:latexmk: ty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjustbo
+INFO:pdf-export:latexmk: x.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.
+INFO:pdf-export:latexmk: tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvutils
+INFO:pdf-export:latexmk: .tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjcalc.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\trimclip
+INFO:pdf-export:latexmk: .sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectbox\collect
+INFO:pdf-export:latexmk: box.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\tc-pdfte
+INFO:pdf-export:latexmk: x.def"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpag
+INFO:pdf-export:latexmk: e.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwidth.
+INFO:pdf-export:latexmk: sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+INFO:pdf-export:latexmk: .cfg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"))
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: For additional information on amsmath, use the `?' option.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+INFO:pdf-export:latexmk: ")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+INFO:pdf-export:latexmk: ty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+INFO:pdf-export:latexmk: sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eurosym\eurosym.st
+INFO:pdf-export:latexmk: y") ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucs.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-global.def
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\utf8x.def"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyvrb\fancyvrb.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grffile\grffile.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
+INFO:pdf-export:latexmk: mds.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwar
+INFO:pdf-export:latexmk: err.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
+INFO:pdf-export:latexmk: eys.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\kvd
+INFO:pdf-export:latexmk: efinekeys.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfesc
+INFO:pdf-export:latexmk: ape.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letltx
+INFO:pdf-export:latexmk: macro.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
+INFO:pdf-export:latexmk: s.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
+INFO:pdf-export:latexmk: f")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcalc.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmd
+INFO:pdf-export:latexmk: s.sty") ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.st
+INFO:pdf-export:latexmk: y"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigin
+INFO:pdf-export:latexmk: tcalc.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegsh
+INFO:pdf-export:latexmk: i.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
+INFO:pdf-export:latexmk: ef"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryen
+INFO:pdf-export:latexmk: d.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rer
+INFO:pdf-export:latexmk: unfilecheck.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\un
+INFO:pdf-export:latexmk: iquecounter.sty")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.
+INFO:pdf-export:latexmk: sty") ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ulem\ulem.st
+INFO:pdf-export:latexmk: y")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translations\trans
+INFO:pdf-export:latexmk: lations.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
+INFO:pdf-export:latexmk: sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+INFO:pdf-export:latexmk: e.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+INFO:pdf-export:latexmk: e-pdftex.def")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
+INFO:pdf-export:latexmk: e.cfg"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\placeins.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/todonotes\todonote
+INFO:pdf-export:latexmk: s.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+INFO:pdf-export:latexmk: tikz.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+INFO:pdf-export:latexmk: .sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+INFO:pdf-export:latexmk: cs.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: futil-common.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: futil-common-lists.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: futil-latex.def"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"))
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: frcs.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+INFO:pdf-export:latexmk: .tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+INFO:pdf-export:latexmk: core.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+INFO:pdf-export:latexmk: fsys.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsys.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: fkeys.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: fkeysfiltered.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgf.cfg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsys-pdftex.def"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsys-common-pdf.def")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsyssoftpath.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+INFO:pdf-export:latexmk: pgfsysprotocol.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcore.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: .code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: calc.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: util.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: parser.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.basic.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.trigonometric.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.random.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.comparison.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.base.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.round.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.misc.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: functions.integerarithmetics.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: float.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+INFO:pdf-export:latexmk: code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepoints.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepathconstruct.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepathusage.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorescopes.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoregraphicstate.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoretransformations.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorequick.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreobjects.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepathprocessing.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorearrows.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreshade.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreimage.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoreexternal.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorelayers.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcoretransparency.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorepatterns.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+INFO:pdf-export:latexmk: gfcorerdf.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+INFO:pdf-export:latexmk: oduleshapes.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+INFO:pdf-export:latexmk: oduleplot.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+INFO:pdf-export:latexmk: pgfcomp-version-0-65.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+INFO:pdf-export:latexmk: pgfcomp-version-1-18.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+INFO:pdf-export:latexmk: or.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+INFO:pdf-export:latexmk: eys.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: fkeys.code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+INFO:pdf-export:latexmk: ty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: .code.tex"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+INFO:pdf-export:latexmk: ffor.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+INFO:pdf-export:latexmk: .code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz\tikz.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+INFO:pdf-export:latexmk: flibraryplothandlers.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+INFO:pdf-export:latexmk: odulematrix.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibrarytopaths.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibrarypositioning.code.tex")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibraryshadows.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+INFO:pdf-export:latexmk: r/tikz/libraries\tikzlibraryfadings.code.tex"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+INFO:pdf-export:latexmk: flibraryfadings.code.tex")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chngcntr\chngcntr.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlay
+INFO:pdf-export:latexmk: er-scrpage.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlay
+INFO:pdf-export:latexmk: er.sty"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/doi\doi.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newfloat\newfloat.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+INFO:pdf-export:latexmk: ty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+INFO:pdf-export:latexmk: cfg"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mdframed\mdframed.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
+INFO:pdf-export:latexmk: xparse.sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
+INFO:pdf-export:latexmk: "
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
+INFO:pdf-export:latexmk: d-pdfmode.def")))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/zref\zref-abspage.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/zref\zref-base.sty
+INFO:pdf-export:latexmk: "))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/needspace\needspac
+INFO:pdf-export:latexmk: e.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mdframed\md-frame-
+INFO:pdf-export:latexmk: 1.mdf"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
+INFO:pdf-export:latexmk: ")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+INFO:pdf-export:latexmk: cfg"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.
+INFO:pdf-export:latexmk: sty") (report_code.aux
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ppl.fd"
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+INFO:pdf-export:latexmk: df.mkii"
+INFO:pdf-export:latexmk: [Loading MPS to PDF converter (version 2006.09.02).]
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+INFO:pdf-export:latexmk: pdf-base.sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ltcaption.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\ucsencs.def")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
+INFO:pdf-export:latexmk: ty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcount.
+INFO:pdf-export:latexmk: sty")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\g
+INFO:pdf-export:latexmk: ettitlestring.sty")) (report_code.out) (report_code.out)
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bookmark.
+INFO:pdf-export:latexmk: sty"
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bkm-pdfte
+INFO:pdf-export:latexmk: x.def"))
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translations/dicts
+INFO:pdf-export:latexmk: \translations-basic-dictionary-english.trsl")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-ppl.c
+INFO:pdf-export:latexmk: fg") ABD: EveryShipout initializing macros
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Package scrlayer-scrpage Warning: Very small head height detected!
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                Using scrlayer-scrpage the head height
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                should be at least \baselineskip, which is
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                12.0pt currently.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                But head height is currently 0.0pt only.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                You may use
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                geometry option `head=12.0pt'
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                \relax to avoid this warning.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: *geometry* driver: auto-detecting
+INFO:pdf-export:latexmk: *geometry* detected driver: pdftex
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Overfull \hbox (64.83632pt too wide) in paragraph at lines 441--442
+INFO:pdf-export:latexmk: \T1/ppl/m/n/14.4 ma1700@scarletmail.rutgers.edu[][]
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ppl.fd")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlzplm.fd"
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omszplm.f
+INFO:pdf-export:latexmk: d")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxzplm.fd"
+INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1zplm.f
+INFO:pdf-export:latexmk: d")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msa.c
+INFO:pdf-export:latexmk: fg")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb.c
+INFO:pdf-export:latexmk: fg") [1{C:/Users/brian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd")
+INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ppl.fd")
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Package scrlayer-scrpage Warning: \headheight to low.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                At least 12.0pt needed,
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                but only 0.0pt found.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                I'll enlarge \headheight, for further
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                processing, but you should do this yourself,
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                e.g., setting geometry's option
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                `head=12.0pt'.
+INFO:pdf-export:latexmk: (scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
+INFO:pdf-export:latexmk: 22.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: Overfull \vbox (12.0pt too high) has occurred while \output is active [2]
+INFO:pdf-export:latexmk: [3] [4 <./report_code_files/output_31_0.png>]pdfTeX warning (ext4): destination
+INFO:pdf-export:latexmk: with the same identifier (name{face-classification}) has been already used, du
+INFO:pdf-export:latexmk: plicate ignored
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.619 ...assification}\label{face-classification}}
+INFO:pdf-export:latexmk: [5] [6] [7] (report_code.aux
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: There were multiply-defined labels.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: (see the transcript file for additional information) <C:\Users\brian\AppData\Lo
+INFO:pdf-export:latexmk: cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk>{C:/Users/brian/A
+INFO:pdf-export:latexmk: ppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\brian\A
+INFO:pdf-export:latexmk: ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Use
+INFO:pdf-export:latexmk: rs\brian\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.p
+INFO:pdf-export:latexmk: k><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+INFO:pdf-export:latexmk: /cm/cmr10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+INFO:pdf-export:latexmk: lic/amsfonts/cm/cmsy10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fo
+INFO:pdf-export:latexmk: nts/type1/urw/palatino/uplb8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX
+INFO:pdf-export:latexmk: 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/brian/AppData/Local/Program
+INFO:pdf-export:latexmk: s/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/
+INFO:pdf-export:latexmk: Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData
+INFO:pdf-export:latexmk: /Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+INFO:pdf-export:latexmk: Output written on report_code.pdf (7 pages, 153671 bytes).
+INFO:pdf-export:latexmk: Transcript written on report_code.log.
+INFO:pdf-export:latexmk: Latexmk: Log file says output to 'report_code.pdf'
+INFO:pdf-export:latexmk: Latexmk: List of undefined refs and citations:
+INFO:pdf-export:latexmk: Label `face-classification' multiply defined
+INFO:pdf-export:latexmk: Label `face-classification@cref' multiply defined
+INFO:pdf-export:latexmk: Latexmk: Summary of warnings from last run of (pdf)latex:
+INFO:pdf-export:latexmk: Latex found 2 multiply defined reference(s)
+INFO:pdf-export:latexmk: === TeX engine is 'pdfTeX'
+INFO:pdf-export:latexmk: Latexmk: All targets () are up-to-date
+INFO:pdf-export:pdf conversion complete
+INFO:ipypublish:process finished successfully
