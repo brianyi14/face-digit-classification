@@ -1,4 +1,4 @@
-INFO:ipypublish:started ipypublish v0.10.10 at Mon Apr 27 02:08:00 2020
+INFO:ipypublish:started ipypublish v0.10.10 at Wed Apr 29 16:01:58 2020
 INFO:ipypublish:logging to: C:\Users\brian\OneDrive\Desktop\work\projects\face-digit-classification\converted\report_code.nbpub.log
 INFO:ipypublish:running for ipynb(s) at: report_code.ipynb
 INFO:ipypublish:with conversion configuration: latex_ipypublish_main
@@ -22,7 +22,6 @@ INFO:pdf-export:latexmk: Rule 'pdflatex': File changes, etc:
 INFO:pdf-export:latexmk: Changed files, or newly in use since previous run(s):
 INFO:pdf-export:latexmk: 'C:/Users/brian/OneDrive/Desktop/work/projects/face-digit-classification/converted/report_code.tex'
 INFO:pdf-export:latexmk: 'report_code.tex'
-INFO:pdf-export:latexmk: 'report_code_files/output_31_0.png'
 INFO:pdf-export:latexmk: ------------
 INFO:pdf-export:latexmk: Run number 1 of rule 'pdflatex'
 INFO:pdf-export:latexmk: ------------
@@ -385,6 +384,30 @@ INFO:pdf-export:latexmk: cfg"))
 INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.
 INFO:pdf-export:latexmk: sty") (report_code.aux
 INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `algorithm' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `algorithm@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `method' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `method@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification' multiply defined.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: 
@@ -452,41 +475,67 @@ INFO:pdf-export:latexmk: (scrlayer-scrpage)                processing, but you s
 INFO:pdf-export:latexmk: (scrlayer-scrpage)                e.g., setting geometry's option
 INFO:pdf-export:latexmk: (scrlayer-scrpage)                `head=12.0pt'.
 INFO:pdf-export:latexmk: (scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
-INFO:pdf-export:latexmk: 22.
+INFO:pdf-export:latexmk: 23.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: Overfull \vbox (12.0pt too high) has occurred while \output is active [2]
-INFO:pdf-export:latexmk: [3] [4 <./report_code_files/output_31_0.png>]pdfTeX warning (ext4): destination
-INFO:pdf-export:latexmk: with the same identifier (name{face-classification}) has been already used, du
-INFO:pdf-export:latexmk: plicate ignored
+INFO:pdf-export:latexmk: [3] [4 <./report_code_files/output_31_0.png>] [5 <./report_code_files/output_35
+INFO:pdf-export:latexmk: _0.png>] [6 <./report_code_files/output_41_0.png>] [7 <./report_code_files/outp
+INFO:pdf-export:latexmk: ut_43_0.png>]pdfTeX warning (ext4): destination with the same identifier (name{
+INFO:pdf-export:latexmk: algorithm}) has been already used, duplicate ignored
 INFO:pdf-export:latexmk: <to be read again>
 INFO:pdf-export:latexmk: \relax
-INFO:pdf-export:latexmk: l.619 ...assification}\label{face-classification}}
-INFO:pdf-export:latexmk: [5] [6] [7] (report_code.aux
-INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: l.730 \subsection{Algorithm}\label{algorithm}}
+INFO:pdf-export:latexmk: pdfTeX warning (ext4): destinatio
+INFO:pdf-export:latexmk: n with the same identifier (name{method}) has been already used, duplicate igno
+INFO:pdf-export:latexmk: red
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.753 \subsection{Method}\label{method}}
+INFO:pdf-export:latexmk: pdfTeX warning (ext4): destination with
+INFO:pdf-export:latexmk: the same identifier (name{digit-classification}) has been already used, duplic
+INFO:pdf-export:latexmk: ate ignored
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.771 ...ssification}\label{digit-classification}}
+INFO:pdf-export:latexmk: [8]pdfTeX warning (ext4): de
+INFO:pdf-export:latexmk: stination with the same identifier (name{face-classification}) has been already
+INFO:pdf-export:latexmk: used, duplicate ignored
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.822 ...assification}\label{face-classification}}
+INFO:pdf-export:latexmk: [9 <./report_code_files/outp
+INFO:pdf-export:latexmk: ut_54_0.png>] [10 <./report_code_files/output_58_0.png>] [11] (report_code.aux)
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: LaTeX Warning: There were multiply-defined labels.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: )
-INFO:pdf-export:latexmk: (see the transcript file for additional information) <C:\Users\brian\AppData\Lo
-INFO:pdf-export:latexmk: cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk>{C:/Users/brian/A
-INFO:pdf-export:latexmk: ppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\brian\A
-INFO:pdf-export:latexmk: ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Use
-INFO:pdf-export:latexmk: rs\brian\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.p
-INFO:pdf-export:latexmk: k><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-INFO:pdf-export:latexmk: /cm/cmr10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-INFO:pdf-export:latexmk: lic/amsfonts/cm/cmsy10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fo
-INFO:pdf-export:latexmk: nts/type1/urw/palatino/uplb8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX
-INFO:pdf-export:latexmk: 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/brian/AppData/Local/Program
-INFO:pdf-export:latexmk: s/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/
-INFO:pdf-export:latexmk: Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData
-INFO:pdf-export:latexmk: /Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-INFO:pdf-export:latexmk: Output written on report_code.pdf (7 pages, 153671 bytes).
+INFO:pdf-export:latexmk: (see the transcript file for additional information){C:/Users/brian/AppData/Loc
+INFO:pdf-export:latexmk: al/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\brian\AppData\Loc
+INFO:pdf-export:latexmk: al\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\brian\A
+INFO:pdf-export:latexmk: ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk><C:/User
+INFO:pdf-export:latexmk: s/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+INFO:pdf-export:latexmk: pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+INFO:pdf-export:latexmk: ts/cm/cmsy10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+INFO:pdf-export:latexmk: urw/palatino/uplb8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts
+INFO:pdf-export:latexmk: /type1/urw/palatino/uplbi8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2
+INFO:pdf-export:latexmk: .9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/Programs/M
+INFO:pdf-export:latexmk: iKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/Pro
+INFO:pdf-export:latexmk: grams/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+INFO:pdf-export:latexmk: Output written on report_code.pdf (11 pages, 212461 bytes).
 INFO:pdf-export:latexmk: Transcript written on report_code.log.
 INFO:pdf-export:latexmk: Latexmk: Log file says output to 'report_code.pdf'
 INFO:pdf-export:latexmk: Latexmk: List of undefined refs and citations:
+INFO:pdf-export:latexmk: Label `algorithm' multiply defined
+INFO:pdf-export:latexmk: Label `algorithm@cref' multiply defined
 INFO:pdf-export:latexmk: Label `face-classification' multiply defined
 INFO:pdf-export:latexmk: Label `face-classification@cref' multiply defined
+INFO:pdf-export:latexmk: Label `fig:flabel' multiply defined
+INFO:pdf-export:latexmk: Label `fig:flabel@cref' multiply defined
+INFO:pdf-export:latexmk: Label `method' multiply defined
+INFO:pdf-export:latexmk: Label `method@cref' multiply defined
+INFO:pdf-export:latexmk: Label `tbl:tlabel' multiply defined
+INFO:pdf-export:latexmk: Label `tbl:tlabel@cref' multiply defined
 INFO:pdf-export:latexmk: Rule 'pdflatex': File changes, etc:
 INFO:pdf-export:latexmk: Changed files, or newly in use since previous run(s):
 INFO:pdf-export:latexmk: 'report_code.aux'
@@ -853,10 +902,88 @@ INFO:pdf-export:latexmk: cfg"))
 INFO:pdf-export:latexmk: ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cleveref\cleveref.
 INFO:pdf-export:latexmk: sty") (report_code.aux
 INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `algorithm' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `algorithm@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `method' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `method@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `digit-classification' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `digit-classification@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification' multiply defined.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: LaTeX Warning: Label `face-classification@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `tbl:tlabel@cref' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel' multiply defined.
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: 
+INFO:pdf-export:latexmk: LaTeX Warning: Label `fig:flabel@cref' multiply defined.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: ) ("C:\Users\brian\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ppl.fd"
 INFO:pdf-export:latexmk: )
@@ -920,43 +1047,71 @@ INFO:pdf-export:latexmk: (scrlayer-scrpage)                processing, but you s
 INFO:pdf-export:latexmk: (scrlayer-scrpage)                e.g., setting geometry's option
 INFO:pdf-export:latexmk: (scrlayer-scrpage)                `head=12.0pt'.
 INFO:pdf-export:latexmk: (scrlayer-scrpage)                I'll also decrease \topmargin on input line 5
-INFO:pdf-export:latexmk: 22.
+INFO:pdf-export:latexmk: 23.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: Overfull \vbox (12.0pt too high) has occurred while \output is active [2]
-INFO:pdf-export:latexmk: [3] [4 <./report_code_files/output_31_0.png>]pdfTeX warning (ext4): destination
-INFO:pdf-export:latexmk: with the same identifier (name{face-classification}) has been already used, du
-INFO:pdf-export:latexmk: plicate ignored
+INFO:pdf-export:latexmk: [3] [4 <./report_code_files/output_31_0.png>] [5 <./report_code_files/output_35
+INFO:pdf-export:latexmk: _0.png>] [6 <./report_code_files/output_41_0.png>] [7 <./report_code_files/outp
+INFO:pdf-export:latexmk: ut_43_0.png>]pdfTeX warning (ext4): destination with the same identifier (name{
+INFO:pdf-export:latexmk: algorithm}) has been already used, duplicate ignored
 INFO:pdf-export:latexmk: <to be read again>
 INFO:pdf-export:latexmk: \relax
-INFO:pdf-export:latexmk: l.619 ...assification}\label{face-classification}}
-INFO:pdf-export:latexmk: [5] [6] [7] (report_code.aux
-INFO:pdf-export:latexmk: )
+INFO:pdf-export:latexmk: l.730 \subsection{Algorithm}\label{algorithm}}
+INFO:pdf-export:latexmk: pdfTeX warning (ext4): destinatio
+INFO:pdf-export:latexmk: n with the same identifier (name{method}) has been already used, duplicate igno
+INFO:pdf-export:latexmk: red
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.753 \subsection{Method}\label{method}}
+INFO:pdf-export:latexmk: pdfTeX warning (ext4): destination with
+INFO:pdf-export:latexmk: the same identifier (name{digit-classification}) has been already used, duplic
+INFO:pdf-export:latexmk: ate ignored
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.771 ...ssification}\label{digit-classification}}
+INFO:pdf-export:latexmk: [8]pdfTeX warning (ext4): de
+INFO:pdf-export:latexmk: stination with the same identifier (name{face-classification}) has been already
+INFO:pdf-export:latexmk: used, duplicate ignored
+INFO:pdf-export:latexmk: <to be read again>
+INFO:pdf-export:latexmk: \relax
+INFO:pdf-export:latexmk: l.822 ...assification}\label{face-classification}}
+INFO:pdf-export:latexmk: [9 <./report_code_files/outp
+INFO:pdf-export:latexmk: ut_54_0.png>] [10 <./report_code_files/output_58_0.png>] [11] (report_code.aux)
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: LaTeX Warning: There were multiply-defined labels.
 INFO:pdf-export:latexmk: 
 INFO:pdf-export:latexmk: )
-INFO:pdf-export:latexmk: (see the transcript file for additional information) <C:\Users\brian\AppData\Lo
-INFO:pdf-export:latexmk: cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk>{C:/Users/brian/A
-INFO:pdf-export:latexmk: ppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\brian\A
-INFO:pdf-export:latexmk: ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Use
-INFO:pdf-export:latexmk: rs\brian\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.p
-INFO:pdf-export:latexmk: k><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-INFO:pdf-export:latexmk: /cm/cmr10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-INFO:pdf-export:latexmk: lic/amsfonts/cm/cmsy10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fo
-INFO:pdf-export:latexmk: nts/type1/urw/palatino/uplb8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX
-INFO:pdf-export:latexmk: 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/brian/AppData/Local/Program
-INFO:pdf-export:latexmk: s/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/
-INFO:pdf-export:latexmk: Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData
-INFO:pdf-export:latexmk: /Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-INFO:pdf-export:latexmk: Output written on report_code.pdf (7 pages, 153671 bytes).
+INFO:pdf-export:latexmk: (see the transcript file for additional information){C:/Users/brian/AppData/Loc
+INFO:pdf-export:latexmk: al/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\brian\AppData\Loc
+INFO:pdf-export:latexmk: al\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\brian\A
+INFO:pdf-export:latexmk: ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk><C:/User
+INFO:pdf-export:latexmk: s/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+INFO:pdf-export:latexmk: pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+INFO:pdf-export:latexmk: ts/cm/cmsy10.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+INFO:pdf-export:latexmk: urw/palatino/uplb8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2.9/fonts
+INFO:pdf-export:latexmk: /type1/urw/palatino/uplbi8a.pfb><C:/Users/brian/AppData/Local/Programs/MiKTeX 2
+INFO:pdf-export:latexmk: .9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/Programs/M
+INFO:pdf-export:latexmk: iKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/brian/AppData/Local/Pro
+INFO:pdf-export:latexmk: grams/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+INFO:pdf-export:latexmk: Output written on report_code.pdf (11 pages, 212461 bytes).
 INFO:pdf-export:latexmk: Transcript written on report_code.log.
 INFO:pdf-export:latexmk: Latexmk: Log file says output to 'report_code.pdf'
 INFO:pdf-export:latexmk: Latexmk: List of undefined refs and citations:
+INFO:pdf-export:latexmk: Label `algorithm' multiply defined
+INFO:pdf-export:latexmk: Label `algorithm@cref' multiply defined
+INFO:pdf-export:latexmk: Label `digit-classification' multiply defined
+INFO:pdf-export:latexmk: Label `digit-classification@cref' multiply defined
 INFO:pdf-export:latexmk: Label `face-classification' multiply defined
 INFO:pdf-export:latexmk: Label `face-classification@cref' multiply defined
+INFO:pdf-export:latexmk: Label `fig:flabel' multiply defined
+INFO:pdf-export:latexmk: Label `fig:flabel@cref' multiply defined
+INFO:pdf-export:latexmk: Label `method' multiply defined
+INFO:pdf-export:latexmk: Label `method@cref' multiply defined
+INFO:pdf-export:latexmk: Label `tbl:tlabel' multiply defined
+INFO:pdf-export:latexmk: Label `tbl:tlabel@cref' multiply defined
 INFO:pdf-export:latexmk: Latexmk: Summary of warnings from last run of (pdf)latex:
-INFO:pdf-export:latexmk: Latex found 2 multiply defined reference(s)
+INFO:pdf-export:latexmk: Latex found 28 multiply defined reference(s)
 INFO:pdf-export:latexmk: === TeX engine is 'pdfTeX'
 INFO:pdf-export:latexmk: Latexmk: All targets () are up-to-date
 INFO:pdf-export:pdf conversion complete
